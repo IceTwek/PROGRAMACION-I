@@ -1,0 +1,17 @@
+VECTORES!!!!!
+
+Que es un vector/array??
+es un tipo de dato que contiene una serie de datos de un mismo tipo (homogueneo)!!!!!!!!!
+estos se almacenan de forma contigua en la memoria y se pueden acceder mediante su indice, osea son indexados!!!!
+
+
+La principal razon por la que los vectores son homogueneos es el espacio que ocupan los diferentes tipos de datos en la memoria,
+siendo por ejemplo el tipo de dato char de un tamaño de 1 byte, y el tipo de dato int de 2 bytes o mas.
+
+para que la maquina sepa reconocer un elemento por su indice, este multiplica el tamaño del dato por la posicion -1, esto le da 
+como resultado el elemento en el byte especifico.
+ejemplo:
+    Supongamos que el vector de tipo char empieza en el espacio de memoria numero 150, y nosotros le decimos que tome el valor
+    de el indice 4.
+    La maquina para reconocer el indice 4 dentro de la memoria, realiza la multiplicacion: (1byte * 3) = 3 bytes.
+    El indice 4 del vector empieza en la posicion 153 de la memoria y de ahi leo 1byte, el cual es el caracter.
