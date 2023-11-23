@@ -8,7 +8,7 @@ void movimientos(FILE* fp){
     while (!feof(fp)){
         n_cuenta = n_cuenta_ant;
         saldo = 0;
-        printf("NUMERO DE CUENTA\t\tSALDO");
+        printf("NUMERO DE CUENTA\t\tSALDOOOOOOO");
         while (!feof(fp) && n_cuenta == n_cuenta_ant){
             if (codi == 1){
                 saldo = saldo + importe;
